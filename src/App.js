@@ -1,21 +1,24 @@
-import './App.scss';
-import { Routes, Route } from "react-router-dom";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
+import './App.css';
+import Navbar from './components/Navbar';
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import Home from "./components/Home/Home";
+import About from "./components/About/About";
+import Projects from "./components/Projects/Projects";
+
 
 function App() {
-  return (
-    <main>
-        <Navbar />
-        <About />
-        <Projects />
-        <Skills />
-        <Contact />
-    </main>
-  );
+    return (
+        <div className="App">
+            <Navbar />
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/projects" element={<Projects />} />
+            </Routes>
+        </div>
+    );
 }
 
 export default App;
+

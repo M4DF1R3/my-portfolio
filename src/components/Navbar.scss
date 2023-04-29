@@ -1,12 +1,11 @@
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 10px 20px;
     background-color: rgb(31 41 55);
     color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -16,13 +15,16 @@
 
     .my-name {
         font-size: 28px;
-        padding: 20px;
+        padding: 20px 100px 20px 20px;
+        margin: 0;
+
     }
 
     nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        height: 70px;
 
         h2 {
             font-size: 28px;
@@ -34,7 +36,8 @@
         a {
             color: #bdbdbd;
             text-decoration: none;
-            margin-right: 40px;
+            margin-right: 80px;
+            height: 30px;
             font-size: 18px;
             transition: color 0.3s ease-out;
 
@@ -46,7 +49,7 @@
 
     .my-contact {
         font-size: 20px;
-        background-color: #f1c40f;
+        background-color: #a69cac;
         color: #333;
         padding: 10px 20px;
         border-radius: 20px;
