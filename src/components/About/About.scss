@@ -1,64 +1,65 @@
 .about {
     font-size: 50px;
+    background-color: rgb(17 24 39);
     color: rgb(209 213 219);
     margin: auto;
+    padding-top: 20px;
 
     .container {
-        margin: 0 250px;
         text-align: left;
 
-        .row {
+        .info-col {
+            .about-header {
+                color: #fff;
+                font-size: 70px;
+                margin: 10px 30px;
+            }
+
+            .about-p {
+                font-size: 28px;
+                margin: 30px;
+            }
+        }
+
+        .img-col {
             display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-        }
+            justify-content: center;
 
-        .about-header {
-            color: #fff;
-            font-size: 70px;
-            margin: 10px 30px;
-        }
-
-        .about-p {
-            font-size: 28px;
-            margin: 30px;
-
-        }
-
-        .my-image {
-            width: 300px;
-            height: 300px;
-            border-radius: 50%;
-            margin: 30px;
-            display: block;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            .my-image {
+                width: 300px;
+                height: 300px;
+                border-radius: 50%;
+                margin: 30px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            }
         }
     }
-
     .my-skills {
-        margin: 50px 250px;
+        margin: 50px 0px;
     }
 
     .skills-header {
         font-size: 50px;
-        margin: 0px;
+        margin: 20px 0px;
     }
 }
 
 /* For Skills.js */
+.skills-row {
+    justify-content: center;
+    margin: 0px;
+    max-width: 100%;
+}
+
 .skills-icons {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 15px;
     padding: 15px;
     border: 3px solid #fff;
     border-radius: 15px;
-    vertical-align: middle;
-    text-align: center;
-    height: 75px;
-    width: 200px;
     box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137);
-    line-height: 90px;
 
     &:hover {
         transform: scale(1.05);

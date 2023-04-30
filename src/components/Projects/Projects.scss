@@ -1,12 +1,13 @@
 #projects {
     text-align: left;
     font-size: 50px;
+    background-color: rgb(17 24 39);
     color: rgb(209 213 219);
     margin: auto;
 
     .projects-list {
         text-align: center;
-        margin: 20px;
+        padding: 20px;
 
         .projects-header {
             margin: 20px;
@@ -22,10 +23,11 @@
             .project-card {
                 width: 400px;
                 margin: 0 10px 20px;
+                padding: 0;
                 border: 2px solid rgb(209 213 219);
                 border-radius: 8px;
                 box-shadow: 0 3px 3px 3px rgba(99, 95, 100, 0.459);
-                height: 600px;
+                height: 630px;
 
                 img {
                     height: 300px;
@@ -45,7 +47,7 @@
 
                     .project-description {
                         margin: 0;
-                        font-size: 18px;
+                        font-size: 16px;
                         text-align: justify;
 
                         &:not(:last-child) {
@@ -54,7 +56,7 @@
                     }
 
                     .project-languages {
-                        font-size: 20px;
+                        font-size: 16px;
                         text-align: left;
                     }
                 }
@@ -62,7 +64,6 @@
 
             .project-card:hover {
                 transform: scale(1.02);
-                overflow: hidden;
                 box-shadow: 0 3px 3px 3px rgba(188, 191, 206, 0.561);
             }
         }

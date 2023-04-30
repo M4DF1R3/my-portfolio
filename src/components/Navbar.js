@@ -1,31 +1,27 @@
 import React from "react";
 import "./Navbar.scss";
 import { FaHome, FaUserAlt, FaRocket, FaEnvelope } from "react-icons/fa";
+import { Navbar, Nav } from "react-bootstrap";
+import Container from 'react-bootstrap/Container';
 
 
-function Navbar() {
+function NavBar() {
     return (
-        <header className="header">
-            <nav>
-                <h2 className="my-name">Cheng Qian</h2>
-                <a href="/" className="my-home">
-                    <FaHome style={{ marginTop: "2px", marginRight: "5px" }} /> Home
-                </a>
-                <a href="about" className="my-about">
-                    <FaUserAlt style={{ marginTop: "2px", marginRight: "5px" }} /> About
-                </a>
-                <a href="projects" className="my-projects">
-                    <FaRocket style={{ marginTop: "2px", marginRight: "5px" }} /> Projects
-                </a>
-                <a href="contact" className="my-contact">
-                    <FaEnvelope style={{ marginTop: "2px", marginRight: "5px" }} /> Contact Me
-                </a>
-            </nav>
-            {/* <a href="#contact" className="my-contact">
-                Contact Me
-            </a> */}
-        </header>
+        <Navbar style={{ backgroundColor: 'rgb(31 41 55)' }} variant="dark" expand="lg" >
+            <Container>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="top-nav">
+                        <Nav.Link href=""> Cheng Qian </Nav.Link>
+                        <Nav.Link href="/"><FaHome /> Home</Nav.Link>
+                        <Nav.Link href="/About"><FaUserAlt /> About</Nav.Link>
+                        <Nav.Link href="/Projects"><FaRocket /> Projects</Nav.Link>
+                        <Nav.Link href="/Contact"><FaEnvelope /> Contact</Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
     );
 }
 
-export default Navbar;
+export default NavBar;

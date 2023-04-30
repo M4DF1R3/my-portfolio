@@ -13,7 +13,7 @@ import {
 function Tools() {
     return (
         <div>
-            <Row style={{ justifyContent: "center" }}>
+            <Row className="skills-row">
                 <Col xs={4} md={2} className="skills-icons">
                     <DiGit />
                 </Col>

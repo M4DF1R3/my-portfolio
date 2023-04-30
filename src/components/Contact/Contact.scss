@@ -1,12 +1,13 @@
 #contact {
     text-align: left;
-    font-size: 40px;
+    font-size: 34px;
+    background-color: rgb(17 24 39);
     color: rgb(209 213 219);
     margin: auto;
 
     .contact-list {
         text-align: center;
-        margin: 80px;
+        padding: 80px;
 
         .contact-header {
             margin: 0;
@@ -31,6 +32,11 @@
                     text-align: left;
                     padding: 0;
                     margin: 0px;
+
+                    li {
+                        margin: 20px 0px;
+                        font-size: 20px;
+                    }
 
                     .my-contact {
                         width: 500px;

@@ -1,67 +1,11 @@
-.header {
-    display: flex;
+#basic-navbar-nav {
     justify-content: center;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: rgb(31 41 55);
-    color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 70px;
-    z-index: 3;
-    box-sizing: border-box; /* So that the width includes the padding */
 
-    .my-name {
-        font-size: 28px;
-        padding: 20px 100px 20px 20px;
-        margin: 0;
+    .nav-link {
+        margin-right: 2rem;
 
-    }
-
-    nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 70px;
-
-        h2 {
-            font-size: 28px;
-            font-weight: bold;
-            margin-right: 20px;
+        &:hover {
             color: #fff;
         }
-
-        a {
-            color: #bdbdbd;
-            text-decoration: none;
-            margin-right: 80px;
-            height: 30px;
-            font-size: 18px;
-            transition: color 0.3s ease-out;
-
-            &:hover {
-                color: #fff;
-            }
-        }
     }
-
-    // .my-contact {
-    //     font-size: 20px;
-    //     background-color: #a69cac;
-    //     color: #333;
-    //     padding: 10px 20px;
-    //     border-radius: 20px;
-    //     margin-right: 0px;
-    //     text-decoration: none;
-    //     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-    //     position: relative;
-    //     z-index: 1;
-
-    //     &:hover {
-    //         background-color: #fff;
-    //         color: #333;
-    //     }
-    // }
 }

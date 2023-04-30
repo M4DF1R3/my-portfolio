@@ -58,11 +58,11 @@ const Contact = () => {
                             Simply fill the from and send me an email.
                         </p>
                         <span>
-                            <a href="https://github.com/M4DF1R3" target="_blank">
+                            <a href="https://github.com/M4DF1R3" target="_blank" rel="noreferrer">
                                 <FaGithub />
                             </a>
                             {` `}
-                            <a href="https://www.linkedin.com/in/cq4/" target="_blank">
+                            <a href="https://www.linkedin.com/in/cq4/" target="_blank" rel="noreferrer">
                                 <FaLinkedin />
                             </a>
                             
