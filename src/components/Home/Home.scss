@@ -3,27 +3,35 @@
     margin: 0;
     color: white;
     background-color: rgb(17 24 39);
-    overflow: auto;
 
     .home-container {
         font-size: 44px;
-        justify-content: space-between;
+        display: flex;
+        justify-content: center;
         align-items: center;
         padding: 20px;
         margin: 0 auto;
-        max-width: 1000px;
-        height: auto;
-        box-sizing: border-box;
         text-align: left;
+        flex-wrap: wrap;
+        height: calc(100vh - 80px);
 
-        .home-section {
+        .home-row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
             padding: 0;
-            width: 50%;
+            width: 100%;
             margin: 0;
-            height: 100px;
+            
+
+            .home-col {
+                margin: 30px;
+                align-items: center;
+                justify-content: space-between;
+            }
 
             .animate-text {
-                height: 100px;
+                height: 80px;
             }
         }
     }
@@ -31,4 +39,10 @@
     .welcome {
         margin: 0;
     }
+}
+
+.programmer-icon {
+    width: 200px;
+    height: 220px;
+    margin: 0 20px;
 }

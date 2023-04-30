@@ -1,4 +1,4 @@
-import { Row } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import './Contact.scss'
@@ -26,8 +26,8 @@ const Contact = () => {
     return (
         <section id="contact">
             <div className="contact-list">
-                <Row xs={1} md={2} lg={3} className="contact-row">
-                    <div className="contact-col">
+                <Row xs={1} md={3} lg={10} className="contact-row">
+                    <Col md={4} className="contact-col">
                         <h1 className="contact-header">Send Me A Message</h1>
                         <form ref={form} onSubmit={sendEmail}>
                             <ul>
@@ -48,8 +48,8 @@ const Contact = () => {
                                 </li>
                             </ul>
                         </form>
-                    </div>
-                    <div className="contact-col">
+                    </Col>
+                    <Col md={4} className="contact-col">
                         <h1 className="contact-header">
                             Get In Touch
                         </h1>
@@ -65,10 +65,8 @@ const Contact = () => {
                             <a href="https://www.linkedin.com/in/cq4/" target="_blank" rel="noreferrer">
                                 <FaLinkedin />
                             </a>
-                            
-
                         </span>
-                    </div>
+                    </Col>
                 </Row>
             </div>
         </section>

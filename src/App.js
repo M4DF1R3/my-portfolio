@@ -1,13 +1,16 @@
+import React, { useEffect } from "react";
+import { Route, Routes } from "react-router-dom";
 import './App.css';
 import NavBar from './components/Navbar';
-import React from "react";
-import { Route, Routes } from "react-router-dom";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
 
 function App() {
+    useEffect(() => {
+        document.title = 'Website Portfolio';
+    }, []);
     return (
         <div className="App">
             <NavBar />

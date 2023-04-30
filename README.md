@@ -1,5 +1,6 @@
 # Portfolio Website
-Welcome to my personal portfolio. This website is built using React.js
+Welcome to my personal portfolio. This website is built using React.js. 
+[Live](cheng-qian.vercel.app)
 
 ## Installation and Setup Instructions
 Node.js and Git are needed for your computer.
