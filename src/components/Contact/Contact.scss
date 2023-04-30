@@ -1,0 +1,69 @@
+#contact {
+    text-align: left;
+    font-size: 40px;
+    color: rgb(209 213 219);
+    margin: auto;
+
+    .contact-list {
+        text-align: center;
+        margin: 80px;
+
+        .contact-header {
+            margin: 0;
+            text-align: left;
+        }
+
+        .contact-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 1300px;
+            margin: 0 auto;
+
+            .contact-col {
+                width: 600px;
+                margin: 0;
+                text-align: left;
+                height: 600px;
+
+                ul {
+                    list-style-type: none;
+                    text-align: left;
+                    padding: 0;
+                    margin: 0px;
+
+                    .my-contact {
+                        width: 500px;
+                        box-sizing: border-box;
+                        border-radius: 5px;
+                        border: 2px solid rgb(209 213 219);
+                        padding: 7px 10px;
+                    }
+    
+                    .message {
+                        margin: 20px 0;
+                        width: 500px;
+                        height: 300px;
+                        box-sizing: border-box;
+                        border-radius: 5px;
+                        border: 2px solid rgb(209 213 219);
+                        padding: 7px 10px;
+                    }
+
+                    .flat-button {
+                        height: 40px;
+                        width: 100px;
+                        border-radius: 5px;
+                        border: 2px solid rgb(209 213 219);
+                        background-color: rgb(209 213 219);
+                    }
+                }
+
+                .blurb {
+                    font-size: 30px;
+                    margin: 20px 0 20px 0;
+                }
+            }
+        }
+    }
+}

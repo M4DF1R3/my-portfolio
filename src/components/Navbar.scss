@@ -47,21 +47,21 @@
         }
     }
 
-    .my-contact {
-        font-size: 20px;
-        background-color: #a69cac;
-        color: #333;
-        padding: 10px 20px;
-        border-radius: 20px;
-        margin-right: 0px;
-        text-decoration: none;
-        transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-        position: relative;
-        z-index: 1;
+    // .my-contact {
+    //     font-size: 20px;
+    //     background-color: #a69cac;
+    //     color: #333;
+    //     padding: 10px 20px;
+    //     border-radius: 20px;
+    //     margin-right: 0px;
+    //     text-decoration: none;
+    //     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    //     position: relative;
+    //     z-index: 1;
 
-        &:hover {
-            background-color: #fff;
-            color: #333;
-        }
-    }
+    //     &:hover {
+    //         background-color: #fff;
+    //         color: #333;
+    //     }
+    // }
 }

@@ -43,39 +43,3 @@ function Home() {
 }
 
 export default Home;
-
-
-        // <section id="home">
-        //     <div className="home-container">
-        //         <div className="animate-text">
-        //             <h1>
-        //                 <TypeAnimation // Typewriter effect
-        //                 sequence={[
-        //                     'Hello',
-        //                     1000,
-        //                     'Bonjour',
-        //                     1000,
-        //                     'Hola',
-        //                     1000,
-        //                     '你好',
-        //                     1000,
-        //                     'こんにちは',
-        //                     1000,
-        //                     '안녕하세요',
-        //                     1000,
-        //                     'হ্যালো',
-        //                     1000,
-        //                 ]}
-        //                 wrapper="span"
-        //                 repeat={Infinity}
-        //                 style={{ fontSize: '0.9em', display: 'inline-block' }}
-        //             />
-        //             </h1>
-        //         </div> 
-        //         <div className="welcome">
-        //             <h1>
-        //                 Welcome To <br />My Personal Portfolio
-        //             </h1>
-        //         </div>
-        //     </div>
-        // </section>

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.scss";
-import { FaHome, FaUserAlt, FaRocket } from "react-icons/fa";
+import { FaHome, FaUserAlt, FaRocket, FaEnvelope } from "react-icons/fa";
 
 
 function Navbar() {
@@ -17,10 +17,13 @@ function Navbar() {
                 <a href="projects" className="my-projects">
                     <FaRocket style={{ marginTop: "2px", marginRight: "5px" }} /> Projects
                 </a>
+                <a href="contact" className="my-contact">
+                    <FaEnvelope style={{ marginTop: "2px", marginRight: "5px" }} /> Contact Me
+                </a>
             </nav>
-            <a href="#contact" className="my-contact">
+            {/* <a href="#contact" className="my-contact">
                 Contact Me
-            </a>
+            </a> */}
         </header>
     );
 }
