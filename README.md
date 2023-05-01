@@ -21,3 +21,4 @@ The Following packages are used for this project:
 - `sass`
 - `react-bootstrap`
 - `react-parallax-tilt`
+- `animate.css`

@@ -24,7 +24,7 @@ const Contact = () => {
     }
 
     return (
-        <section id="contact">
+        <section className="contact">
             <div className="contact-list">
                 <Row xs={1} md={3} lg={10} className="contact-row">
                     <Col md={4} className="contact-col">

@@ -5,6 +5,7 @@ import Tools from "./Tools";
 import { Row, Col } from "react-bootstrap";
 import myImage from "../../assets/images/image.png";
 import Tilt from "react-parallax-tilt";
+import 'animate.css'
 
 function About() {
     return (
@@ -28,7 +29,7 @@ function About() {
                         </Col>
                     </Row>
                 </div>
-                <div className="skills-tools">
+                <div className="animate__animated animate__backInUp">
                     <div className="my-skills">
                         <h2 className="skills-header">Professional Skills</h2>
                         <Skills />

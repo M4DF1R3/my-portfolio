@@ -5,6 +5,7 @@ import budget from "../../assets/images/budget.png";
 import ProjectCard from "./ProjectCard";
 import particle from "../../assets/images/particle.png";
 import { Row } from "react-bootstrap";
+import 'animate.css'
 
 const projects = [
   {
@@ -30,7 +31,7 @@ const projects = [
 function Projects() {
   return (
     <section id="projects">
-      <div className="projects-list">
+      <div className="animate__animated animate__fadeInDown">
         <h1 className="projects-header">Projects</h1>
         <Row xs={1} md={2} lg={3} className="projects-row">
           {projects.map((project) => (
