@@ -59,6 +59,11 @@
                         border-radius: 5px;
                         border: 2px solid rgb(209 213 219);
                         background-color: rgb(209 213 219);
+
+                        &:hover {
+                            background-color: rgb(17 24 39);
+                            color: rgb(209 213 219);
+                        }
                     }
                 }
 
