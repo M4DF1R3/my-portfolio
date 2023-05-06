@@ -15,9 +15,6 @@ The Following packages are used for this project:
 - `react-type-animation`
 - `@emailjs/browser`
 - `react-icons`
-- `@fontawesome/free-brands-svg-icons`
-- `@fortawesome/free-solid-svg-icons`
-- `@fortawesome/react-fontawesome`
 - `sass`
 - `react-bootstrap`
 - `react-parallax-tilt`
