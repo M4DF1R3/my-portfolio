@@ -4,6 +4,7 @@ import navSystem from "../../assets/images/nav-system.png";
 import budget from "../../assets/images/budget.png";
 import ProjectCard from "./ProjectCard";
 import particle from "../../assets/images/particle.png";
+import gameDiscovery from "../../assets/images/game-discovery.png";
 import { Row } from "react-bootstrap";
 import 'animate.css'
 
@@ -26,6 +27,12 @@ const projects = [
     description: "I collaborated with 4 other members at the 2023 HackED hackathon to produce a working model within 24 hours. We successfully simulated 3D elastic collisions between hundreds of particles and reacted to form a new particle utilizing Three.js. In addition, we added macroscopic properties such as temperature which can affect the velocity of each particle and the reaction speed.",
     languages: ["Three.js", "JavaScript", "HTML", "CSS"],
   },
+  {
+    title: "Game Discovery",
+    imageSrc: gameDiscovery,
+    description: "A Game Discovery App that lets you filter for games based on genre, platform, and search. You can also sort by relevance, popularity, and more. I utilized the RAWG API and Axios and hooks to fetch a list of games filtered. I focused on making the code is modular and reusable.",
+    languages: ["React", "Chakra UI", "Axios", "RAWG API"],
+  }
 ];
 
 function Projects() {

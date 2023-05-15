@@ -12,7 +12,6 @@ function NavBar() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="top-nav">
-                        <Nav.Link href=""> Cheng Qian </Nav.Link>
                         <Nav.Link href="/"><FaHome /> Home</Nav.Link>
                         <Nav.Link href="/About"><FaUserAlt /> About</Nav.Link>
                         <Nav.Link href="/Projects"><FaRocket /> Projects</Nav.Link>
