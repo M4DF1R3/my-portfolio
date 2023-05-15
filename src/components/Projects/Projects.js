@@ -31,7 +31,7 @@ const projects = [
     title: "Game Discovery",
     imageSrc: gameDiscovery,
     description: "A Game Discovery App that lets you filter for games based on genre, platform, and search. You can also sort by relevance, popularity, and more. I utilized the RAWG API and Axios and hooks to fetch a list of games filtered. I focused on making the code is modular and reusable.",
-    languages: ["React", "Chakra UI", "Axios", "RAWG API"],
+    languages: ["React", "Chakra UI", "Axios"],
   }
 ];
 
