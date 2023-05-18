@@ -2,12 +2,11 @@ import { Col, Row } from "react-bootstrap";
 import {
     DiGit,
     DiLinux,
-
+    DiNodejs,
 } from "react-icons/di";
 import {
     SiGnubash,
     SiVmware,
-    SiVisualstudiocode,
 } from "react-icons/si";
 
 function Tools() {
@@ -18,6 +17,9 @@ function Tools() {
                     <DiGit />
                 </Col>
                 <Col xs={4} md={2} className="skills-icons">
+                    <DiNodejs />
+                </Col>
+                <Col xs={4} md={2} className="skills-icons">
                     <SiGnubash />
                 </Col>
                 <Col xs={4} md={2} className="skills-icons">
@@ -25,9 +27,6 @@ function Tools() {
                 </Col>
                 <Col xs={4} md={2} className="skills-icons">
                     <SiVmware />
-                </Col>
-                <Col xs={4} md={2} className="skills-icons">
-                    <SiVisualstudiocode />
                 </Col>
             </Row>
         </div>

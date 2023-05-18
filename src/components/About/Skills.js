@@ -10,7 +10,7 @@ import {
     DiJava,
     DiPhp,
 } from "react-icons/di";
-import { TbSql } from "react-icons/tb";
+import { TbSql, TbBrandCSharp } from "react-icons/tb";
 
 
 function Skills() {
@@ -24,28 +24,28 @@ function Skills() {
                 <DiPython />
             </Col>
             <Col xs={4} md={2} className="skills-icons">
-                <DiJavascript1 />
-            </Col>
-            <Col xs={4} md={2} className="skills-icons">
-                <DiHtml5 />
-            </Col>
-            <Col xs={4} md={2} className="skills-icons">
-                <DiCss3 />
-            </Col>
-            <Col xs={4} md={2} className="skills-icons">
-                <DiReact />
+            <DiReact />
             </Col>
             <Col xs={4} md={2} className="skills-icons">
                 <TbSql />
             </Col>
             <Col xs={4} md={2} className="skills-icons">
-                <SiAssemblyscript />
+            <DiJava />
             </Col>
             <Col xs={4} md={2} className="skills-icons">
-                <DiPhp />
+                <TbBrandCSharp />
             </Col>
             <Col xs={4} md={2} className="skills-icons">
-                <DiJava />
+                <DiJavascript1 />
+            </Col>
+            <Col xs={4} md={2} className="skills-icons">
+            <DiHtml5 />
+            </Col>
+            <Col xs={4} md={2} className="skills-icons">
+                <DiCss3 />
+            </Col>
+            <Col xs={4} md={2} className="skills-icons">
+            <SiAssemblyscript />
             </Col>
         </Row>
     );
