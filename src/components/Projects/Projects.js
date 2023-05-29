@@ -5,6 +5,7 @@ import budget from "../../assets/images/budget.png";
 import ProjectCard from "./ProjectCard";
 import particle from "../../assets/images/particle.png";
 import gameDiscovery from "../../assets/images/game-discovery.png";
+import promptGPT from "../../assets/images/prompt-gpt.png";
 import { Row } from "react-bootstrap";
 import "animate.css";
 
@@ -27,7 +28,7 @@ const projects = [
   },
   {
     title: "Prompt GPT",
-    imageSrc: gameDiscovery,
+    imageSrc: promptGPT,
     githubLink: "https://prompt-gpt-cq4.vercel.app/",
     description:
       "A app for sharing the best Chat GPT prompts. The app is built using React and Next.js and I utilized next-auth to authenticate users. I used MongoDB and CRUD operation to create, read, update, and delete from the database. Lastly, I used Tailwind CSS to style the app.",
